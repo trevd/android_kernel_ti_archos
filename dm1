@@ -1,0 +1,445 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 3.0.21-JellyBean+ (android@android-desktop) (gcc version 4.4.7 (GCC) ) #1 SMP PREEMPT Sun Nov 11 02:31:05 GMT 2012
+<4>[    0.000000] CPU: ARMv7 Processor [411fc093] revision 3 (ARMv7), cr=10c5387d
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[    0.000000] Machine: ARCHOS A101S board
+<6>[    0.000000] fixup_archos: 512M@0x80000000 from bootloader.
+<4>[    0.000000] fixup_archos: [mem=512M init=/init debug omapdss.debug=0 omapfb.debug=0]
+<6>[    0.000000] Product Name: A101S
+<6>[    0.000000] DDR type elpida
+<6>[    0.000000] Reserving 8388608 bytes SDRAM for VRAM
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<6>[    0.000000] OMAP4430 ES2.3
+<6>[    0.000000] SRAM: Mapped pa 0x40300000 to va 0xfe400000 size: 0xd000
+<7>[    0.000000] On node 0 totalpages: 122112
+<7>[    0.000000] free_area_init_node: node 0, pgdat c084e4a0, node_mem_map c09c9000
+<7>[    0.000000]   Normal zone: 1024 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 121088 pages, LIFO batch:31
+<6>[    0.000000] PERCPU: Embedded 7 pages/cpu @c0dcf000 s7328 r8192 d13152 u32768
+<7>[    0.000000] pcpu-alloc: s7328 r8192 d13152 u32768 alloc=8*4096
+<7>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 121088
+<5>[    0.000000] Kernel command line: mem=512M init=/init debug omapdss.debug=0 omapfb.debug=0
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 476MB 1MB = 477MB total
+<5>[    0.000000] Memory: 471880k/471880k available, 52408k reserved, 0K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+<5>[    0.000000]     vmalloc : 0xe0800000 - 0xf8000000   ( 376 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc0071000   ( 420 kB)
+<5>[    0.000000]       .text : 0xc0071000 - 0xc07d3000   (7560 kB)
+<5>[    0.000000]       .data : 0xc07d4000 - 0xc0850238   ( 497 kB)
+<5>[    0.000000]        .bss : 0xc085025c - 0xc09c87e8   (1506 kB)
+<6>[    0.000000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] Preemptible hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:410
+<4>[    0.000000] omap_hwmod: dpll_mpu_m2_ck: missing clockdomain for dpll_mpu_m2_ck.
+<6>[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+<3>[    0.000000] ram_console: buffer   (null), invalid size 0, datasize 4294967284
+<6>[    0.000091] Calibrating delay loop... 1990.38 BogoMIPS (lpj=7774208)
+<6>[    0.070373] pid_max: default: 32768 minimum: 301
+<6>[    0.070739] Mount-cache hash table entries: 512
+<6>[    0.071807] Initializing cgroup subsys debug
+<6>[    0.071838] Initializing cgroup subsys cpuacct
+<6>[    0.071899] Initializing cgroup subsys freezer
+<6>[    0.071960] CPU: Testing write buffer coherency: ok
+<6>[    0.072052] ftrace: allocating 21540 entries in 64 pages
+<6>[    0.091339] L310 cache controller enabled
+<6>[    0.091369] l2x0: 16 ways, CACHE_ID 0x410000c4, AUX_CTRL 0x5e470000, Cache size: 1048576 B
+<4>[    0.169769] CPU1: Booted secondary processor
+<6>[    0.239837] Brought up 2 CPUs
+<6>[    0.239837] SMP: Total of 2 processors activated (3989.17 BogoMIPS).
+<6>[    0.240234] devtmpfs: initialized
+<4>[    0.242767] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for emif_fw
+<4>[    0.242797] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_instr
+<4>[    0.242797] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_main_1
+<4>[    0.242797] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_main_2
+<4>[    0.242828] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_abe
+<4>[    0.242828] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_cfg
+<4>[    0.242858] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_per
+<4>[    0.242858] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_wkup
+<4>[    0.242858] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for mpu_private
+<4>[    0.242919] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for sl2if
+<4>[    0.242980] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for usbhs_ohci
+<4>[    0.243011] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for usbhs_ehci
+<4>[    0.243194] omap_hwmod: l3_div_ck: missing clockdomain for l3_div_ck.
+<3>[    0.248016] _omap4_module_wait_ready: Timeout waiting for module enable (mcpdm_fck: clkctrl = 0x30002)
+<4>[    0.250976] omap_hwmod: mcpdm: cannot be enabled (3)
+<6>[    0.253540] print_constraints: dummy: 
+<6>[    0.253753] NET: Registered protocol family 16
+<6>[    0.253906] GPMC revision 6.0
+<4>[    0.253936] gpmc_mem_init: cannot add 16777216@00000000
+<6>[    0.254974] EMIF0 is enabled with IRQ142
+<6>[    0.255035] EMIF1 is enabled with IRQ143
+<6>[    0.255065] Last reset was warm software reset (PRM_RSTST=0x2)
+<6>[    0.255065] 
+<6>[    0.255462] OMAP GPIO hardware version 0.1
+<6>[    0.256958] omap_mux_init: Add partition: #1: core, flags: 2
+<6>[    0.257965] omap_mux_init: Add partition: #2: wkup, flags: 2
+<4>[    0.259063] archos_accel_init: irq1 205, irq2 334
+<4>[    0.259094] archos_compass_init: irq 211
+<6>[    0.261322] init_ehci_clock_init: auxclk4_ck now at 12000000
+<3>[    0.261352] Enabling aux_clk
+<7>[    0.262390] panel_auo_wxga_10_init
+<6>[    0.268432] OMAP DMA hardware revision 0.0
+<3>[    0.268981] omap_rproc_get_pool: dsp - no carveout memory is available at all
+<4>[    0.269073] omap_rproc_get_pool: ipu - carveout memory is unavailable: 0x0, 0x0
+<6>[    0.277374] bio: create slab <bio-0> at 0
+<6>[    0.277984] print_constraints: 5V: 5000 mV 
+<6>[    0.278198] print_constraints: 1V8: 1800 mV 
+<6>[    0.278381] print_constraints: VCC: 3300 mV 
+<6>[    0.278564] print_constraints: vbus_musb: 5000 mV 
+<6>[    0.278747] print_constraints: vmmc2: 1800 mV 
+<6>[    0.278961] print_constraints: vmmc2_aux: 3300 mV 
+<6>[    0.279144] print_constraints: TSP_VCC: 3300 mV 
+<6>[    0.279327] print_constraints: vwl1271: 1800 mV 
+<6>[    0.279510] print_constraints: hdmi_5v: 5000 mV normal 
+<6>[    0.279724] print_constraints: hsusb_ext: 5000 mV normal 
+<4>[    0.279998] i2c-core: driver [twl] using legacy suspend method
+<4>[    0.280029] i2c-core: driver [twl] using legacy resume method
+<5>[    0.280303] SCSI subsystem initialized
+<6>[    0.281249] usbcore: registered new interface driver usbfs
+<6>[    0.281402] usbcore: registered new interface driver hub
+<6>[    0.281494] usbcore: registered new device driver usb
+<6>[    0.282318] omap_i2c omap_i2c.1: bus 1 rev4.0 at 400 kHz
+<4>[    0.282867] Skipping twl internal clock init and using bootloader value (unknown osc rate)
+<6>[    0.283203] twl 1-0048: start condition : 00
+<6>[    0.286743] twl6030: PIH (irq 39) chaining IRQs 368..387
+<6>[    0.289031] print_constraints: VUSB: 3300 mV normal standby
+<3>[    0.291595] archos_twl6030_usb_xceiv archos_twl6030_usb_xceiv: Initialized Archos TWL6030 USB module
+<4>[    0.292053] STATE_UNKNOWN -> STATE_NONE
+<6>[    0.292724] print_constraints: VMMC: 1200 <--> 3000 mV at 1800 mV normal standby
+<6>[    0.293792] print_constraints: VPP: 1800 <--> 2500 mV at 1900 mV normal standby
+<6>[    0.294891] print_constraints: VCXIO: 1800 mV normal standby
+<6>[    0.295959] print_constraints: VDAC: 1800 mV normal standby
+<6>[    0.296661] print_constraints: VAUX2_6030: 2800 mV normal standby
+<6>[    0.297485] print_constraints: VAUX3_6030: 1000 <--> 3300 mV at 1200 mV normal standby
+<6>[    0.298583] print_constraints: VANA: 2100 mV normal standby
+<6>[    0.299407] print_constraints: CLK32KG: 
+<6>[    0.300201] print_constraints: CLK32KAUDIO: 
+<6>[    0.300506] omap_i2c omap_i2c.2: bus 2 rev4.0 at 100 kHz
+<6>[    0.300720] omap_i2c omap_i2c.3: bus 3 rev4.0 at 100 kHz
+<6>[    0.301086] omap_i2c omap_i2c.4: bus 4 rev4.0 at 400 kHz
+<6>[    0.301757] omap-rproc omap-rproc.0: dsp is available
+<6>[    0.301818] omap-rproc omap-rproc.1: ipu is available
+<6>[    0.301971] Advanced Linux Sound Architecture Driver Version 1.0.24.
+<6>[    0.302825] Switching to clocksource 32k_counter
+<6>[    0.310119] Switched to NOHz mode on CPU #0
+<6>[    0.310150] Switched to NOHz mode on CPU #1
+<6>[    0.316802] musb-hdrc: version 6.0, musb-dma, otg (peripheral+host)
+<7>[    0.317230] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+<7>[    0.317260] musb-hdrc: MHDRC RTL version 2.0 
+<7>[    0.317260] musb-hdrc: setup fifo_mode 4
+<7>[    0.317291] musb-hdrc: 28/31 max ep, 16384/16384 memory
+<6>[    0.317291] musb-hdrc musb-hdrc: USB OTG mode controller at fc0ab000 using DMA, IRQ 124
+<6>[    0.318023] NET: Registered protocol family 2
+<6>[    0.318298] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.318542] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[    0.318542] TCP bind hash table entries: 16384 (order: 6, 393216 bytes)
+<6>[    0.319458] TCP: Hash tables configured (established 16384 bind 16384)
+<6>[    0.320526] TCP reno registered
+<6>[    0.320526] UDP hash table entries: 256 (order: 2, 16384 bytes)
+<6>[    0.320617] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes)
+<6>[    0.320617] NET: Registered protocol family 1
+<6>[    0.321624] RPC: Registered named UNIX socket transport module.
+<6>[    0.321624] RPC: Registered udp transport module.
+<6>[    0.321655] RPC: Registered tcp transport module.
+<6>[    0.321655] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<6>[    0.321868] Trying to unpack rootfs image as initramfs...
+<6>[    0.368988] Freeing initrd memory: 1964K
+<6>[    0.469635] archos_camera_glue archos_camera_glue: no cam_1v8 rail, skip.
+<3>[    0.566436] archos_usb_3g archos_usb_3g: Unable to get "3g_hub" regulator
+<7>[    0.566619] panel_init
+<6>[    0.568054] omap-iommu omap-iommu.0: ducati registered
+<6>[    0.568054] omap-iommu omap-iommu.1: tesla registered
+<6>[    0.579956] ashmem: initialized
+<6>[    0.584747] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+<6>[    0.586975] NTFS driver 2.1.30 [Flags: R/O].
+<6>[    0.587890] fuse init (API version 7.16)
+<6>[    0.587890] msgmni has been set to 925
+<6>[    0.590576] io scheduler noop registered
+<6>[    0.590576] io scheduler deadline registered
+<6>[    0.590637] io scheduler cfq registered (default)
+<6>[    0.590698] start plist test
+<6>[    0.591949] end plist test
+<6>[    0.595825] OMAP DSS rev 4.0
+<3>[    0.598022] HDMI TX OFF
+<6>[    0.598114] input: omap4_hdmi_cec as /devices/virtual/input/input0
+<3>[    0.599121] register call backs
+<6>[    0.599884] dsscomp: initializing.
+<7>[    0.600158] misc dsscomp: display0=generic_dpi_panel
+<7>[    0.600189] misc dsscomp: display1=hdmi_panel
+<6>[    0.600189] misc dsscomp: found 2 displays and 4 overlays, WB overlay 1
+<6>[    0.600982] omap-rproc omap-rproc.1: powering up ipu
+<6>[    0.601287] virtio_rpmsg_bus virtio0: rpmsg backend virtproc probed successfully
+<6>[    0.601379] virtio_rpmsg_bus virtio1: rpmsg backend virtproc probed successfully
+<6>[    0.602325] rpmsg_server_sample rpmsg1: new channel: 0x89 -> 0xffffffff!
+<6>[    0.602325] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 104) is a OMAP UART0
+<6>[    0.603210] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 105) is a OMAP UART1
+<6>[    0.603576] omap_uart.2: ttyO2 at MMIO 0x48020000 (irq = 106) is a OMAP UART2
+<6>[    0.603912] omap_ion_probe: adding heap secure_input of type 2 with 9e600000@80000
+<6>[    0.603912] omap_ion_probe: adding heap tiler of type 4 with 9e680000@80000
+<6>[    0.607574] brd: module loaded
+<6>[    0.611236] loop: module loaded
+<6>[    0.614410] (stk) :sysfs entries created
+<6>[    0.614593] (stk) : debugfs entries created 
+<6>[    0.623260] PPP generic driver version 2.4.2
+<6>[    0.623260] PPP Deflate Compression module registered
+<6>[    0.624267] PPP BSD Compression module registered
+<6>[    0.626495] PPP MPPE Compression module registered
+<6>[    0.626495] NET: Registered protocol family 24
+<6>[    0.626556] tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.628265] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.628265] rtl8150: v0.6.2 (2004/08/27):rtl8150 based usb-ethernet driver
+<6>[    0.628570] usbcore: registered new interface driver rtl8150
+<6>[    0.628570] usbcore: registered new interface driver asix
+<6>[    0.628662] usbcore: registered new interface driver cdc_ether
+<6>[    0.628753] usbcore: registered new interface driver dm9601
+<6>[    0.628753] usbcore: registered new interface driver smsc75xx
+<6>[    0.628845] usbcore: registered new interface driver smsc95xx
+<6>[    0.628845] usbcore: registered new interface driver net1080
+<6>[    0.629028] usbcore: registered new interface driver cdc_subset
+<6>[    0.629089] usbcore: registered new interface driver zaurus
+<6>[    0.629089] usbcore: registered new interface driver MOSCHIP usb-ethernet driver
+<6>[    0.629089] usbcore: registered new interface driver int51x1
+<6>[    0.629089] usbcore: registered new interface driver zd1201
+<6>[    0.629302] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<3>[    0.629577] Failed: change interconnect bandwidth to 166000000
+<6>[    0.629608] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+<6>[    0.629608] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+<6>[    0.629608] ehci-omap ehci-omap.0: irq 109, io mem 0x4a064c00
+<6>[    0.653320] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+<6>[    0.653320] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    0.653442] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.653442] usb usb1: Product: OMAP-EHCI Host Controller
+<6>[    0.653472] usb usb1: Manufacturer: Linux 3.0.21-JellyBean+ ehci_hcd
+<6>[    0.653472] usb usb1: SerialNumber: ehci-omap.0
+<6>[    0.653472] hub 1-0:1.0: USB hub found
+<6>[    0.653472] hub 1-0:1.0: 3 ports detected
+<6>[    0.693542] usbcore: registered new interface driver cdc_acm
+<6>[    0.693603] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    0.693603] Initializing USB Mass Storage driver...
+<6>[    0.693725] usbcore: registered new interface driver usb-storage
+<6>[    0.693725] USB Mass Storage support registered.
+<6>[    0.693847] usbcore: registered new interface driver libusual
+<3>[    0.694000] jm20329_platform_init: no device configuration for system_rev 5
+<6>[    0.694000] usbcore: registered new interface driver usbserial
+<6>[    0.694000] usbserial: USB Serial Driver core
+<6>[    0.695922] android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    0.695953] android_usb gadget: Number of LUNs=1
+<6>[    0.695953]  lun0: LUN: removable file: (no medium)
+<6>[    0.696014] android_usb gadget: android_usb ready
+<6>[    0.696228] musb-hdrc musb-hdrc: MUSB HDRC host driver
+<6>[    0.696228] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 2
+<6>[    0.696380] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    0.696380] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.696411] usb usb2: Product: MUSB HDRC host driver
+<6>[    0.696411] usb usb2: Manufacturer: Linux 3.0.21-JellyBean+ musb-hcd
+<6>[    0.696441] usb usb2: SerialNumber: musb-hdrc
+<6>[    0.696441] hub 2-0:1.0: USB hub found
+<6>[    0.696441] hub 2-0:1.0: 1 port detected
+<6>[    0.697601] mousedev: PS/2 mouse device common for all mice
+<6>[    0.697601] input: gpio-keys as /devices/platform/gpio-keys/input/input1
+<6>[    0.698364] usbcore: registered new interface driver xpad
+<6>[    0.699096] twl6030_pwrbutton_probe: Enter
+<6>[    0.699768] input: twl6030_pwrbutton as /devices/platform/omap/omap_i2c.1/i2c-1/1-0049/twl6030_pwrbutton/input/input2
+<6>[    0.702117] Found MMA8453Q accelerometer with ID 0x3A
+<6>[    0.707458] input: MMA8453Q Accelerometer as /devices/virtual/input/input3
+<4>[    0.707458] i2c-core: driver [mma8453q] using legacy suspend method
+<4>[    0.707824] i2c-core: driver [mma8453q] using legacy resume method
+<4>[    0.707824] MMA8453Q driver version 0.1 (1 April 2011)
+<6>[    0.707855] AKM8975 compass driver: initialize
+<6>[    0.708465] input: compass as /devices/virtual/input/input4
+<4>[    0.709136] i2c-core: driver [akm8975] using legacy suspend method
+<4>[    0.709136] i2c-core: driver [akm8975] using legacy resume method
+<6>[    0.712615] using rtc device, twl_rtc, for alarms
+<6>[    0.713043] twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0
+<6>[    0.713287] i2c /dev entries driver
+<6>[    0.713287] lirc_dev: IR Remote Control driver registered, major 250 
+<6>[    0.714050] IR NEC protocol handler initialized
+<6>[    0.714050] IR RC5(x) protocol handler initialized
+<6>[    0.714050] IR RC6 protocol handler initialized
+<6>[    0.714080] IR JVC protocol handler initialized
+<6>[    0.714080] IR Sony protocol handler initialized
+<6>[    0.714080] IR RC5 (streamzap) protocol handler initialized
+<6>[    0.714111] IR LIRC bridge handler initialized
+<6>[    0.714111] Linux video capture interface: v2.00
+<6>[    0.714294] dmm: probe base: fd300000, irq 145
+<4>[    0.714294] omap_imt_init
+<6>[    0.753295] twl6030_bci twl6030_bci: Battery Voltage at Bootup is 3823 mV
+<6>[    0.753570] twl6030_bci twl6030_bci: Read 9 as cin_limit, set current to 500
+<6>[    0.764526] OMAP Watchdog Timer Rev 0x00: initial timeout 60 sec
+<6>[    0.764526] device-mapper: uevent: version 1.0.3
+<6>[    0.765228] device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com
+<6>[    0.765808] cpuidle: using governor ladder
+<6>[    0.765838] cpuidle: using governor menu
+<7>[    0.770965] Registered led device: power
+<6>[    0.771087] omap_pwm_led omap_pwm_led.0: OMAP PWM LED (lcd-backlight) at GP timer 8/0
+<7>[    0.771087] Registered led device: lcd-backlight
+<6>[    0.775756] usbcore: registered new interface driver usbhid
+<6>[    0.775787] usbhid: USB HID core driver
+<6>[    0.775787] usbip_core: USB/IP Core v1.0.0
+<6>[    0.776000] logger: created 256K log 'log_main'
+<6>[    0.776000] logger: created 256K log 'log_events'
+<6>[    0.776000] logger: created 256K log 'log_radio'
+<6>[    0.776000] logger: created 256K log 'log_system'
+<6>[    0.776855] thermal_governor_dev_register:Adding omap_ondie_governor governor
+<6>[    0.777221] thermal_sensor_dev_register:Found cpu cpu
+<6>[    0.777252] thermal_sensor_dev_register:Adding omap443x_ondie_sensor sensor
+<4>[    0.803009] omap_configure_temp_sensor_thresholds -> 76 75  73000 71000
+<6>[    0.805267] omap_temp_sensor omap_temp_sensor.0: omap443x_ondie_sensor : 'omap_temp_sensor'
+<6>[    0.806518] usbcore: registered new interface driver snd-usb-audio
+<6>[    0.808410] archos_omap4_soc_probe: Archos Device SoC init
+<4>[    0.814086] twl6040-codec twl6040-codec: couldn't get VDDHF regulator -19
+<6>[    0.844635] asoc: null-codec-dai <-> MultiMedia1 mapping ok
+<6>[    0.846466] asoc: null-codec-dai <-> MultiMedia2 mapping ok
+<6>[    0.847717] asoc: null-codec-dai <-> Voice mapping ok
+<6>[    0.850128] asoc: null-codec-dai <-> Tones mapping ok
+<6>[    0.850830] asoc: null-codec-dai <-> Vibra mapping ok
+<6>[    0.851989] asoc: null-codec-dai <-> MODEM mapping ok
+<6>[    0.852752] asoc: null-codec-dai <-> MultiMedia1 LP mapping ok
+<6>[    0.853454] asoc: FM Digital <-> omap-mcbsp-dai.1 mapping ok
+<6>[    0.855773] asoc: twl6040-dl1 <-> mcpdm-dl mapping ok
+<6>[    0.857574] asoc: dmic-hifi <-> omap-dmic-dai-0 mapping ok
+<4>[    0.859405] twl6040-codec twl6040-codec: ASoC: Failed to create Aux/FM Stereo In debugfs file
+<6>[    0.860290] asoc: twl6040-dl1 <-> mcpdm-dl1 mapping ok
+<6>[    0.861053] asoc: twl6040-ul <-> mcpdm-ul1 mapping ok
+<6>[    0.861816] asoc: twl6040-dl2 <-> mcpdm-dl2 mapping ok
+<6>[    0.862548] asoc: twl6040-vib <-> mcpdm-vib mapping ok
+<6>[    0.863281] asoc: Bluetooth <-> omap-mcbsp-dai.0 mapping ok
+<6>[    0.864074] asoc: Bluetooth <-> omap-mcbsp-dai.0 mapping ok
+<6>[    0.865020] asoc: FM Digital <-> omap-mcbsp-dai.1 mapping ok
+<6>[    0.865722] asoc: MODEM <-> omap-mcbsp-dai.1 mapping ok
+<6>[    0.866577] asoc: dmic-hifi <-> omap-dmic-abe-dai-0 mapping ok
+<6>[    0.867401] asoc: dmic-hifi <-> omap-dmic-abe-dai-1 mapping ok
+<6>[    0.868164] asoc: dmic-hifi <-> omap-dmic-abe-dai-2 mapping ok
+<6>[    0.868164] input: ARCHOS-TWL6040 Headset Jack as /devices/platform/soc-audio/sound/card0/input5
+<6>[    0.872100] mmc0: new high speed MMC card at address 0001
+<6>[    0.872650] mmcblk0: mmc0:0001 MMC08G 6.94 GiB 
+<6>[    0.872863] mmcblk0boot0: mmc0:0001 MMC08G partition 1 128 KiB
+<6>[    0.873046] mmcblk0boot1: mmc0:0001 MMC08G partition 2 128 KiB
+<6>[    0.876129]  mmcblk0: p1 p2 p3 < p5 > p4
+<6>[    0.877716] asoc: hdmi-audio-codec <-> hdmi-audio-dai mapping ok
+<6>[    0.878234] ALSA device list:
+<6>[    0.878326]   #0: Archos Board (TWL6040)
+<6>[    0.878326]   #1: OMAP4HDMI
+<6>[    0.878509] GACT probability NOT on
+<6>[    0.878540] Mirror/redirect action on
+<6>[    0.878540] u32 classifier
+<6>[    0.878570]     Actions configured
+<6>[    0.878570] Netfilter messages via NETLINK v0.30.
+<6>[    0.878662] nf_conntrack version 0.5.0 (7403 buckets, 29612 max)
+<6>[    0.878997]  mmcblk0boot1: unknown partition table
+<6>[    0.880157] ctnetlink v0.93: registering with nfnetlink.
+<6>[    0.880554] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    0.880554] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    0.880920]  mmcblk0boot0: unknown partition table
+<6>[    0.881561] xt_time: kernel timezone is -0000
+<6>[    0.884521] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.884521] arp_tables: (C) 2002 David S. Miller
+<6>[    0.884521] TCP cubic registered
+<6>[    0.885589] NET: Registered protocol family 10
+<6>[    0.888824] Mobile IPv6
+<6>[    0.891143] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    0.891143] IPv6 over IPv4 tunneling driver
+<6>[    0.896636] NET: Registered protocol family 17
+<6>[    0.897186] NET: Registered protocol family 15
+<6>[    0.897186] NET: Registered protocol family 35
+<6>[    0.897491] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<6>[    0.897491] ThumbEE CPU extension supported.
+<5>[    0.897491] Registering SWP/SWPB emulation handler
+<6>[    0.904479] Reprogramming LPDDR2 timings to 400000000 Hz
+<4>[    0.904785] sr_init: No PMIC hook to init smartreflex
+<6>[    0.904907] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized
+<6>[    0.905395] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized
+<6>[    0.905517] smartreflex smartreflex.2: omap_sr_probe: SmartReflex driver initialized
+<6>[    0.906066] SmartReflex class 1.5 driver: initialized (86400000ms)
+<4>[    0.906707] cpufreq_cooling: Taking thermal_domain_list_lock
+<6>[    0.906738] thermal_cooling_dev_register:Found cpu cpu
+<4>[    0.906738] cpufreq_cooling: thermal_domain_list_lock released
+<3>[    0.906768] Power Management for TI OMAP4.
+<6>[    0.906951] OMAP4 PM: Static dependency added between MPUSS <-> EMIF, MPUSS <-> L4_PER/CFG MPUSS <-> L3_MAIN_1.
+<6>[    0.906951] OMAP4 PM: Static dependency added between DUCATI <-> L4_PER/CFG and DUCATI <-> L3.
+<6>[    0.913848] clock: disabling unused clocks to save power
+<6>[    0.935760] sr_class1p5_calib_work: core: Calibration complete: Voltage Nominal=1127000Calib=1050820 margin=0
+<6>[    0.935791] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1388000Calib=1210000 margin=0
+<6>[    0.935821] sr_class1p5_calib_work: iva: Calibration complete: Voltage Nominal=950000Calib=860920 margin=0
+<6>[    0.997375] cannot apply mgr(lcd) on inactive device
+<4>[    0.997467] omapfb omapfb: failed to apply dispc config
+<6>[    0.997497] cannot apply mgr(tv) on inactive device
+<4>[    0.997558] omapfb omapfb: failed to apply dispc config
+<6>[    0.997589] cannot apply mgr(lcd2) on inactive device
+<4>[    0.997680] omapfb omapfb: failed to apply dispc config
+<6>[    1.013824] PC detected
+<4>[    1.013854] STATE_NONE -> STATE_VBUS
+<4>[    1.037567] mmc1: host does not support reading read-only switch. assuming write-enable.
+<6>[    1.052947] mmc1: new SD card at address ee1b
+<6>[    1.053375] mmcblk1: mmc1:ee1b SU02G 1.89 GiB 
+<6>[    1.054779]  mmcblk1: p1
+<4>[    1.125396] omapdss DPI: Could not find exact pixel clock. Requested 68930 kHz, got 68929 kHz
+<7>[    1.127410] panel_enable [wxga10]
+<4>[    1.174835] mmc2: card claims to support voltages below the defined range. These will be ignored.
+<4>[    1.195465] mmc2: queuing unknown CIS tuple 0x91 (3 bytes)
+<6>[    1.197174] mmc2: new SDIO card at address 0001
+<3>[    1.224822] PHY ON
+<6>[    1.384277] twl_rtc twl_rtc: setting system clock to 2012-11-11 03:52:00 UTC (1352605920)
+<4>[    1.385437] Warning: unable to open an initial console.
+<6>[    1.385711] Freeing init memory: 420K
+<6>[    1.588867] EXT4-fs (mmcblk0p4): mounted filesystem with ordered data mode. Opts: (null)
+<6>[    1.615539] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1025000Calib=900000 margin=0
+<6>[    1.619415] EXT4-fs (loop0): recovery complete
+<6>[    1.619476] EXT4-fs (loop0): mounted filesystem with ordered data mode. Opts: (null)
+<3>[    1.621398] init: skipping insecure file '/system/build.prop'
+<3>[    1.621704] init: Unable to open persistent property directory /data/property errno: 2
+<3>[    1.625366] android_usb: already disabled
+<3>[    1.627563] init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<3>[    1.627624] init: property 'ro.product.manufacturer' doesn't exist while expanding '$ro.product.manufacturer'
+<3>[    1.627685] init: cannot expand '$ro.product.manufacturer' while writing to '/sys/class/android_usb/android0/iManufacturer'
+<3>[    1.627777] init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+<3>[    1.627838] init: property 'ro.product.model' doesn't exist while expanding '$ro.product.model'
+<3>[    1.627929] init: cannot expand '$ro.product.model' while writing to '/sys/class/android_usb/android0/iProduct'
+<6>[    1.630035] adb_open
+<3>[    1.639831] android_usb: already disabled
+<6>[    1.640838] adb_bind_config
+<6>[    1.646270] adb_release
+<3>[    1.646759] init: untracked pid 101 exited
+<7>[    1.667175] panel_disable [wxga10]
+<3>[    1.680877] omap-rproc omap-rproc.1: rproc_loader_cont: failed to load ducati-m3.bin
+<6>[    1.943969] android_work: did not send uevent (0 0   (null))
+<6>[    2.279510] android_work: did not send uevent (0 0   (null))
+<7>[    2.330993] panel_enable [wxga10]
+<6>[    2.413696] android_work: sent uevent USB_STATE=CONNECTED
+<6>[    2.416351] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[    2.569641] android_work: sent uevent USB_STATE=CONNECTED
+<6>[    2.585144] android_usb gadget: full speed config #1: android
+<6>[    2.585327] android_work: sent uevent USB_STATE=CONFIGURED
+<6>[    2.826416] state changed - was 0
+<6>[    2.826446] temp now: 37750 agv: 26425 state 1
+<6>[    2.826477] omap_process_cpu_temp: Setting omap443x_ondie_sensor pointer
+<4>[    2.826538] omap_set_thresholds 72 49  65000 25000
+<6>[    2.841949] state changed - was 1
+<6>[    2.841949] temp now: 37750 agv: 36617 state 2
+<6>[    6.653228] adb_open
+<7>[    7.625793] panel_disable [wxga10]
+<3>[    8.164978] Invalid Device Structure
+<3>[    8.164978] update target_level failed
+<7>[    8.167327] panel_enable [wxga10]
+<4>[    8.716125] adbd (117): /proc/117/oom_adj is deprecated, please use /proc/117/oom_score_adj instead.
+<3>[    8.790100] bio too big device loop1 (2 > 0)
+<3>[    8.790100] EXT4-fs (loop1): unable to read superblock
+<3>[    8.973236] bio too big device loop1 (2 > 0)
+<3>[    8.973266] EXT4-fs (loop1): unable to read superblock
+<6>[    9.045196] sr_class1p5_calib_work: core: Calibration complete: Voltage Nominal=962000Calib=886240 margin=0
+<3>[    9.218444] bio too big device loop1 (2 > 0)
+<3>[    9.218444] EXT4-fs (loop1): unable to read superblock
+<3>[    9.422943] bio too big device loop1 (2 > 0)
+<3>[    9.422973] EXT4-fs (loop1): unable to read superblock

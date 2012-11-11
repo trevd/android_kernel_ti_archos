@@ -1,0 +1,37 @@
+android linux kernel 3.0.21 based on original archos sources found at 
+http://gitorious.org/archos/archos-gpl-gen9-kernel-ics branch: linux-ics-3.0.21
+
+Android boot mode awareness:
+----------------------------
+changes made to arch/arm/mach-omap2/omap4-reboot-reason.c to enable correct setting
+of android system property ro.bootmode.
+
+designed to be used in conjunction with roms created using device files locating in
+https://github.com/trevd/android_device_ti_archos.git
+
+Proc-v7.S changes
+-----------------
+I've backported arch/arm/mm/Proc-v7.S from the android-omap-3 kernel 3.4 branch, this
+was done to allow the kernel to be built using the standard android toolchain.
+
+Building
+--------
+
+Clone the android aosp toolchain
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6
+
+Using the Bourne Again Shell ( bash ) export an alias to make cross compiling easy
+
+alias make-arm='<toolchain path>/arm-eabi-4.6/bin/:$PATH ARCH=arm SUBARCH=arm CROSS_COMPILE=arm-eabi- LOCALVERSION_AUTO=n make'
+make-arm distclean && make-arm mrproper
+make-arm ti_archos_defconfig
+make-arm -j$(grep -c processor /proc/cpuinfo)
+
+Out of tree drivers
+-------------------
+PowerVR Kernel Modules are not included in this release, they are available from omapzoom android aosp
+repo located at git://git.omapzoom.org/device/ti/proprietary-open.git. this repo also contains the matching 
+userland binary blobs, versions of which exist for Gingerbread, ICS and JellyBean. See device tree documentation
+for further details ( https://github.com/trevd/android_device_ti_archos.git )
+
+
