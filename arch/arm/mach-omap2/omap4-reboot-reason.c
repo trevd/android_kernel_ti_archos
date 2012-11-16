@@ -55,16 +55,14 @@ static int __init omap_reboot_reason_init(void)
 	if (sar_base){
 		char android_reboot_reason[OMAP_REBOOT_REASON_SIZE] ; 
 		strncpy(android_reboot_reason,sar_base + OMAP_REBOOT_REASON_OFFSET, OMAP_REBOOT_REASON_SIZE);
-		if(strlen(android_reboot_reason)){
-			if(!strncmp(android_reboot_reason,"off",3)) //last one was off , boot to android
-				strlcat(saved_command_line," androidboot.mode=android",COMMAND_LINE_SIZE);
-			else
-				strlcat(saved_command_line," androidboot.mode=",COMMAND_LINE_SIZE); // fixme 256 is the magic number, it should be 
-				strlcat(saved_command_line,android_reboot_reason,COMMAND_LINE_SIZE);
-
-		}else // no pervious bootmode, default to android
-			strlcat(saved_command_line," androidboot.mode=android",COMMAND_LINE_SIZE);
-		
+		printk("android_reboot_reason:%s\n\toffset:%x size:%d\n",android_reboot_reason,OMAP_REBOOT_REASON_OFFSET, OMAP_REBOOT_REASON_SIZE);
+		if(!strncmp(android_reboot_reason,"recovery",OMAP_REBOOT_REASON_SIZE)) {
+			strlcat(saved_command_line," androidboot.mode=recovery",COMMAND_LINE_SIZE);
+		}else{
+			strlcat(saved_command_line," androidboot.mode=android",COMMAND_LINE_SIZE);		
+		}
+	}else{ // noram , what the fuck are you thinking
+			strlcat(saved_command_line," androidboot.mode=android",COMMAND_LINE_SIZE);		
 	}
 	return register_reboot_notifier(&omap_reboot_notifier);
 }
